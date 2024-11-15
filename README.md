@@ -11,30 +11,36 @@
 
 
 
-
-![Alt text](https://example.com/image.png)
-
-
+## Home Page
+![Alt text](https://github.com/Farakh45/medication_analysis/blob/main/readme_img/Screenshot%20(231).png)
 
 
 
-![Alt text](https://example.com/image.png)
+
+## Condition List
+![Alt text](https://github.com/Farakh45/medication_analysis/blob/main/readme_img/Screenshot%20(232).png)
+
+
+## Medication for the condition
+![Alt text](https://github.com/Farakh45/medication_analysis/blob/main/readme_img/Screenshot%20(233).png)
+
+
+## Medication Analysis And Chart Type
+![Alt text](https://github.com/Farakh45/medication_analysis/blob/main/readme_img/Screenshot%20(234).png)
+
+
+## Medication Analysis for Age Range In Bar Chart
+![Alt text](https://github.com/Farakh45/medication_analysis/blob/main/readme_img/Screenshot%20(235).png)
+
+
+## Medication Analysis for Age Range In Line Chart
+![Alt text](https://github.com/Farakh45/medication_analysis/blob/main/readme_img/Screenshot%20(238).png)
+
+## Medication Analysis for Gender In pie Chart
+![Alt text](https://github.com/Farakh45/medication_analysis/blob/main/readme_img/Screenshot%20(240).png)
+
+## Medication Analysis for Age Range In pie Chart
+![Alt text](https://github.com/Farakh45/medication_analysis/blob/main/readme_img/Screenshot%20(241).png)
 
 
 
-![Alt text](https://example.com/image.png)
-
-
-
-![Alt text](https://example.com/image.png)
-
-
-
-![Alt text](https://example.com/image.png)
-
-
-
-![Alt text](https://example.com/image.png)
-
-
-![Alt text](https://example.com/image.png)
