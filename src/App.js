@@ -94,10 +94,9 @@ const App = () => {
 
   const handleDataFetched = (demographicsData, medicationsData) => {
     setMedData(medicationsData);
-    if(tabs.length > 0){
-      setLoading(false)
-     }
-    
+    if (tabs.length > 0) {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
@@ -111,7 +110,6 @@ const App = () => {
           countryDistribution: med.countryDistribution,
         }))
       );
-   
     } else {
       // Reset tabs when no condition is selected
       setTabs([]);
@@ -124,19 +122,31 @@ const App = () => {
 
   const handleSelectChange = (e) => {
     const selectedValue = e.target.value;
-    setSelectedOption(selectedValue)
-    
+    setSelectedOption(selectedValue);
+
     setActiveSubTab("");
     setSubTabsData({});
     setSelectedTab(null);
     setTabs([]);
-    setLoading(true)
-      
-  
+    setLoading(true);
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 px-36">
+      <div className="my-10 font-mono">
+        <p>
+          The Medication Data Analysis is a comprehensive healthcare
+          tool that allows users to explore medications for specific medical
+          conditions. By selecting a condition, users can view a list of
+          relevant medications and, upon clicking, access detailed insights such
+          as the age group for which each medication is prescribed, the
+          countries where it's commonly used, and gender distribution patterns
+          in prescriptions. This tool is essential for patients, healthcare
+          providers, and researchers, enabling them to make data-driven choices,
+          understand global prescription trends, and tailor treatment plans more
+          effectively.
+        </p>
+      </div>
       <h1 className="text-3xl font-bold text-center mb-4">
         Medication Data Analysis
       </h1>
@@ -217,7 +227,9 @@ const App = () => {
 
       {/* Sub-tabs and Data Rendering */}
       {selectedTab && (
-        <> <h1 className="text-center font-bol4">{selectedTab}</h1>
+        <>
+          {" "}
+          <h1 className="text-center font-bol4">{selectedTab}</h1>
           <div className="mt-4 flex space-x-4 justify-center">
             <button
               onClick={() => handleSubTabClick("ageGroups")}
