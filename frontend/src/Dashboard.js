@@ -142,7 +142,7 @@ const Dashboard = () => {
 
   return (
     <>
-     <Header />
+     {/* <Header /> */}
     <div className="container mx-auto p-4 px-36">
       <div className="my-10 font-mono">
         <p>
